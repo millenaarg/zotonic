@@ -94,7 +94,7 @@ Sending javascript (or other data) from the server to the browser is straight fo
 
   z_transport:page(javascript, <<"alert('Hello World');">>, Context);
 
-This transport the javascript to the page associated with the *Context*. On the browser this
+This transports the javascript to the page associated with the *Context*. On the browser this
 javascript will be evaluated.
 
 The default quality of service is 0; to let the page queue retry delivering the message it is possible to specify
